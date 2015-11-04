@@ -1,0 +1,119 @@
+body{
+	background-color: #A9D0F5;
+}
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+h2{
+	text-align: center;
+	font-size: 2em;
+	margin: 0px;
+}
+#top-left{
+	float: left;
+	width: 23%;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 200px;
+	background-color: white;
+	border-top-left-radius: 5%;
+	margin-left: 15%;
+}
+#top-center{
+	float: left;
+	width: 23%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 200px;
+	background-color: white;
+}
+#top-right{
+	float:left;
+	width: 23%;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 200px;
+	background-color: white;
+	border-top-right-radius: 5%;
+	margin-right: 15%;
+}
+#mid-left{
+	width: 23%;
+	height: 200px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	float: left;
+	clear: both;
+	background-color: white;
+	margin-left: 15%;
+}
+#mid-center{
+	float:left;
+	width: 23%;
+	border: 1px solid black;
+	height: 200px;
+	background-color: white;
+}
+#mid-right{
+	float:left;
+	width: 23%;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 200px;
+	background-color: white;
+	margin-right: 15%;
+}
+#bottom-left{
+	width: 23%;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	height: 200px;
+	float: left;
+	clear: both;
+	background-color: white;
+	border-bottom-left-radius: 5%;
+	margin-left: 15%;
+}
+#bottom-center{
+	float:left;
+	width: 23%;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	height: 200px;
+	background-color: white;
+}
+#bottom-right{
+	float:left;
+	width: 23%;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	height: 200px;
+	background-color: white;
+	border-bottom-right-radius: 5%;
+	margin-right: 15%;
+}
+#reset{
+	height: 100px;
+	width: 200px;
+	clear: both;
+	border-radius: 5%;
+	border: 2px solid black;
+	background-color:#A9F5A9;
+	font-size: 2em;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.ex{
+	background-image: url('img/x.png');
+}
+.oh{
+	background-image: url('img/oh.jpg');
+}
+.hidden{
+	visibility: hidden;
+}
